@@ -1,43 +1,121 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>THIS IS A TEMPLATE</title>
-  <style>
-    .container{
-      width: 600px;
-      background: rgb(15, 202, 99);
-    }
-    img{
-      padding: 15px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Email</title>
+    <style type="text/css">
+      table, tr, td{
+        border: 1px solid orange;
+        color: brown;
+        background: black;
+        color: white;
+      }
+        @media only screen and (max-device-width: 480px){
+            /*mobile-specific css styles go here*/
+            table{
+                width: 320px !important;
+            }
+        }
+        /*Regular CSS styles go here*/
+        
+      /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+    </style>
 </head>
 <body>
-<!--  **********begin html email******* -->
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <table class="container" width="600px" align="center" cellspacing="0" cellpadding="0" border="0">
-    <tr>
-      <td>
-        <table class="main-img" align="left">
-          <tr>
-            <td>
-              <img src="https://i.postimg.cc/0yq3LntC/blueuser.png" alt="" width="100px" height="100px">
-              <h1 style="color: rgb(31, 212, 167);">Emily Sam</h1>
-              <h2 style="color: white;">Web Developer</h2>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  </table>
-  <!--  **********end html email******* -->
+  <!-- Main table -->
+   <table align="center" border="1" cellpadding="0" cellspacing="0" width="650" style="border-collapse:collapse; border: 1px solid #cccccc">
+  
+      
+       <tr>
+           <td align="center" bgcolor="#ffffff">
+              <!-- Logo -->
+              
+               <table border="0" cellpadding="10" cellspacing="0" width="30%" height="156" align="left" bgcolor="pink" >
+                   <tr>
+                       <td ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGteujIZmMt5Avjtvd1dRg5ZHnqTPzC3Tkg3Lx2pEzXFxpj4FcCA" alt="Logo" width="150" ></td>
+                   </tr>
+                   
+               </table>
+               
+               <!-- Info -->
+               <table border="0" cellpadding="0" cellspacing="0" width="70%" style="padding: 10px 10px 10px 10px;" bgcolor="#ffffff">
+                   <tr>
+                       <td style="font-size:1rem;font-weight: 400;font-family: Arial,Helvetica, sans-serif; color: #153643;">
+                         <p style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;color:#fff;">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRprJFqxtMFuY9MF74-qHJilJbixCOTKJc-1bO6KVBQlPxbHlGD" alt="" width="20px" height="20px">
+                          <i style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px;">1-808-808-8080</i>
+                         </p>
+                         <p style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;">
+                          <img src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/cell-phone-icon-18-256.png" alt="" width="20px" height="20px">
+                          <i style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px;color:#fff;">1-900-900-9000</i>
+                         </p>
+                         <p style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;color:#fff;">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwT1mVUizqUpoQ5DO-SQ2H6m0hPmReVkwbnyZO1Mu864zohiV" alt="" width="20px" height="20px">
+                          <i style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px;">hello@petty.com</i>
+                         </p>
+                         <p style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;color:#fff;">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt1q8YPgSGMaBjA54tVzJcy-88MYLhMPQBxYdxDJNg-h6N1MCx" alt="" width="20px" height="20px">
+                          <i style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px;color:#fff;">www.kimpetty.com</i>
+                         </p>
+                         <p style="margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 10px;color:#fff;">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_fTFRIWXRnTNCuU3TfGdvFXaIRo60DabiOui2cX_bY5rWoZP_" alt="" width="20px" height="20px">
+                          <i style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px;">1234 Main Blvd Town City TN 55553</i>
+                         </p>
+                    </td>
+                       
+                   </tr>
+                   <!--Social -->
+<!--                    <tr>
+                       <td><a href="tel:+1 6094705534" style="color:#4885c8; text-decoration:none;font-family: Arial,Helvetica, sans-serif;">609-470-5534</a> <br /><a href="https://www.behance.net/YPMM" style="color:#4885c8; text-decoration:none;font-family: Arial,Helvetica, sans-serif;" target="_blank"> Behance</a> <a href="https://codepen.io/ypmm/" style="color:#4885c8; text-decoration:none;font-family: Arial,Helvetica, sans-serif;" target="_blank"> -Code Pen</a>
+                        </td>
+                  
+                    
+                   </tr>
+                   
+                   <tr>
+                     <td style="font-size: 0; line-height:0;" width="20" height="15">&nbsp;></td>
+                 </tr>
+                   <tr>
+                       <td><a href="https://www.linkedin.com/in/ysaias-paul-martinez-mateo-283375138/" target="_blank"><img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_square_24x24.png" alt="Linkedin"></a></td>
+                       
+                   </tr> -->
+               </table>
+           </td>
+       </tr>
+     <tr>
+          <td style="padding: 0px 0px 0px 0px;"  >     
+            <table  border="0"  cellpadding="0" cellspacing="0" width="30%" height="50" align="left"  bgcolor="#ec0928" >
+              <tr style="" >
+                <td style="font-size:20px;font-weight: 600;font-family: Arial,Helvetica, sans-serif; color: #fff;" valign="top"><p style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px;">KiIM PETTY<br/>
+                  <span style="font-size:13px;font-family: Arial,Helvetica, sans-serif;font-weight: 200;" align="center">Email Developer</span></p>
+                  <p style="margin-top: 10px; margin-right: 0; margin-bottom: 0; margin-left: 10px;">
+                    <a href="https://www.linkedin.com/in/ysaias-paul-martinez-mateo-283375138/" target="_blank"><img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_square_24x24.png" alt="Linkedin"></a>
+                  <a href="https://www.linkedin.com/in/ysaias-paul-martinez-mateo-283375138/" target="_blank"><img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_square_24x24.png" alt="Linkedin"></a>
+                  <a href="https://www.linkedin.com/in/ysaias-paul-martinez-mateo-283375138/" target="_blank"><img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_square_24x24.png" alt="Linkedin"></a>
+                  <a href="https://www.linkedin.com/in/ysaias-paul-martinez-mateo-283375138/" target="_blank"><img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_square_24x24.png" alt="Linkedin"></a>
+                  <a href="https://www.linkedin.com/in/ysaias-paul-martinez-mateo-283375138/" target="_blank"><img src="https://68ef2f69c7787d4078ac-7864ae55ba174c40683f10ab811d9167.ssl.cf1.rackcdn.com/linkedin-icon_square_24x24.png" alt="Linkedin"></a>
+                  </p>
+                </td>   
+                
+              </tr>
+              
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="70%" style="padding: 0px 0px 0px 0px;" bgcolor="#ffffff">
+              <tr>
+                <td>
+<!--                   STYLE HERE##############################33 -->
+                  <p style="font-size:.8rem;margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;"><i><span style="font-weight:bold;">Lorem :</span> ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptatum cupiditate <br>modi quam sapiente quibusdam officiis, reprehenderit quis ex praesentium ipsum, doloremque <br> mollitia soluta qui, consequatur hic repellat magni rem!</i></p>
+                </td>
+              </tr>
+            </table>
+         </td>
+     </tr>
+   </table>
+    
 </body>
 </html>
